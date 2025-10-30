@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card</title>
+    <style>
+      .card {
+        border: 2px solid black;
+        width: 300px;
+        background-color: wheat;
+        padding: 20px;
+        border-radius: 9px;
+      }
+      .card-img-top {
+        max-width: 100%;
+        border-radius: 9px;
+      }
+      .card-body {
+        text-align: center;
+        font-family: Verdana, sans-serif;
+      }
+      .card.text {
+        line-height: 1.5;
+      }
+      .btn-order {
+        padding: 10px 20px;
+        background-color: black;
+        color: white;
+        text-decoration: none;
+        border-radius: 9px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <img
+        src="https://serene-sip-v2.vercel.app/images/Americano.jpg"
+        alt=""
+        class="card-img-top"
+      />
+
+      <div class="card-body">
+        <h4 class="card-title">Americano</h4>
+
+        <p class="card-text">
+          - Strong and black.<br />
+          Perfect for the bold coffee enthusiast.<br />
+          <span class="price">$2.50</span>
+        </p>
+        <a href="#" class="btn-order">Order</a>
+      </div>
+    </div>
+  </body>
+</html>
